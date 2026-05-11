@@ -1,0 +1,36 @@
+# Segredos - NUNCA commitar
+.env
+.env.local
+.env.production
+.env.development
+
+# Dependências
+node_modules/
+__pycache__/
+venv/
+.dart_tool/
+build/
+dist/
+
+# IDEs
+.idea/
+.vscode/
+
+# Android/Flutter
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# Additional secret files
+!.env.example
+local.properties
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+android/key.properties
+android/keystore/
+ios/Runner/ExportOptions.plist
