@@ -22,20 +22,28 @@ A Flutter application for managing furniture assembly services, including custom
 ## Project Structure
 
 ```text
-lib/
-├── models/
-│   └── cliente.dart              # Customer data model
-├── database/
-│   └── database_helper.dart      # SQLite database helper
-├── screens/
-│   ├── home_screen.dart          # Main screen
-│   ├── cadastro_cliente_screen.dart  # Customer create/edit screen
-│   ├── lista_clientes_screen.dart    # Customer list
-│   ├── agenda_screen.dart        # Schedule view
-│   └── detalhes_cliente_screen.dart  # Customer details
-├── services/
-│   └── pdf_service.dart          # PDF generation service
-└── main.dart                     # App entry point
+servicos_montador/
+├── lib/
+│   ├── models/
+│   │   └── cliente.dart
+│   ├── database/
+│   │   └── database_helper.dart
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   ├── cadastro_cliente_screen.dart
+│   │   ├── lista_clientes_screen.dart
+│   │   ├── agenda_screen.dart
+│   │   └── detalhes_cliente_screen.dart
+│   ├── services/
+│   │   └── pdf_service.dart
+│   └── main.dart
+├── android/
+├── ios/
+├── web/
+├── windows/
+├── linux/
+├── macos/
+└── pubspec.yaml
 ```
 
 ## Usage
@@ -81,6 +89,7 @@ lib/
 ### Setup
 
 ```bash
+cd servicos_montador
 flutter pub get
 flutter run
 ```
@@ -88,6 +97,7 @@ flutter run
 ### Build a Debug APK
 
 ```bash
+cd servicos_montador
 flutter build apk --debug
 ```
 
@@ -110,7 +120,7 @@ The app requests these Android permissions:
 
 ## Company Data
 
-The PDF template uses placeholder company data. To customize it, edit `lib/services/pdf_service.dart`:
+The PDF template uses placeholder company data. To customize it, edit `servicos_montador/lib/services/pdf_service.dart`:
 
 ```dart
 static const String nomeEmpresa = 'Company Name';
@@ -146,4 +156,6 @@ For issues or questions:
 2. Review Flutter logs.
 3. Open an issue in the repository.
 
+## License
 
+This project is licensed under the MIT License. See `LICENSE` for details.
