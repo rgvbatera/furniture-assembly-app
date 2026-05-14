@@ -2,6 +2,16 @@
 
 A Flutter application for managing furniture assembly services, including customer registration, scheduling, local storage, and PDF document generation.
 
+## Screenshots
+
+| Home | New Customer |
+| --- | --- |
+| <img src="image/home.jpg" width="240" alt="Home screen"> | <img src="image/novo-cliente.jpg" width="240" alt="New customer screen"> |
+
+| Schedule | Customers |
+| --- | --- |
+| <img src="image/agenda.jpg" width="240" alt="Schedule screen"> | <img src="image/clientes.jpg" width="240" alt="Customers screen"> |
+
 ## Features
 
 ### Implemented
